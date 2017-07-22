@@ -4,12 +4,13 @@
   "version": "5.1.15-prerelease",
   "author": "Jeremy Ruston <jeremy@jermolene.com>",
   "description": "a non-linear personal web notebook",
-  "contributors": [
-    {
-      "name": "Jeremy Ruston",
-      "email": "jeremy@jermolene.com"
-    }
-  ],
+  "scripts": {
+    "start": "node tiddlywiki.js --server"
+  },
+  "contributors": [{
+    "name": "Jeremy Ruston",
+    "email": "jeremy@jermolene.com"
+  }],
   "bin": {
     "tiddlywiki": "./tiddlywiki.js"
   },
